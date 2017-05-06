@@ -1,0 +1,618 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		279BD9C51EB7111100689065 /* CreateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 279BD9C41EB7111100689065 /* CreateViewController.swift */; };
+		279BD9C71EB7187600689065 /* Workout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 279BD9C61EB7187600689065 /* Workout.swift */; };
+		279BD9C91EB7D58D00689065 /* ChooseExerciseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 279BD9C81EB7D58D00689065 /* ChooseExerciseViewController.swift */; };
+		279BD9CB1EB7D5B400689065 /* ChooseExerciseDataProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 279BD9CA1EB7D5B400689065 /* ChooseExerciseDataProvider.swift */; };
+		279BD9CD1EB7D66600689065 /* ExerciseResource.plist in Resources */ = {isa = PBXBuildFile; fileRef = 279BD9CC1EB7D66600689065 /* ExerciseResource.plist */; };
+		279BD9D01EB9385000689065 /* CreateHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 279BD9CF1EB9385000689065 /* CreateHeaderView.swift */; };
+		279BD9D61EBAC58000689065 /* CreateTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 279BD9D51EBAC58000689065 /* CreateTableViewCell.swift */; };
+		27E489F01EB702CE0006A175 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27E489EF1EB702CE0006A175 /* AppDelegate.swift */; };
+		27E489F21EB702CE0006A175 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27E489F11EB702CE0006A175 /* HomeViewController.swift */; };
+		27E489F81EB702CF0006A175 /* RekorFit.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 27E489F61EB702CF0006A175 /* RekorFit.xcdatamodeld */; };
+		27E489FA1EB702CF0006A175 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 27E489F91EB702CF0006A175 /* Assets.xcassets */; };
+		27E48A081EB702CF0006A175 /* RekorFitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27E48A071EB702CF0006A175 /* RekorFitTests.swift */; };
+		27E48A131EB702CF0006A175 /* RekorFitUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27E48A121EB702CF0006A175 /* RekorFitUITests.swift */; };
+		27E48A211EB705000006A175 /* RecordsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27E48A201EB705000006A175 /* RecordsViewController.swift */; };
+		27E48A251EB705B30006A175 /* HomeDataProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27E48A241EB705B30006A175 /* HomeDataProvider.swift */; };
+		27E48A271EB705BC0006A175 /* RecordsDataProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27E48A261EB705BC0006A175 /* RecordsDataProvider.swift */; };
+		27E48A291EB7082B0006A175 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 27E48A281EB7082B0006A175 /* LaunchScreen.storyboard */; };
+		27E48A2D1EB70D9A0006A175 /* CreateDataProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27E48A2C1EB70D9A0006A175 /* CreateDataProvider.swift */; };
+		27E48A2F1EB70EA30006A175 /* Exercise.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27E48A2E1EB70EA30006A175 /* Exercise.swift */; };
+		27E48A321EB70EF40006A175 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27E48A311EB70EF40006A175 /* Constants.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		27E48A041EB702CF0006A175 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 27E489E41EB702CE0006A175 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 27E489EB1EB702CE0006A175;
+			remoteInfo = RekorFit;
+		};
+		27E48A0F1EB702CF0006A175 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 27E489E41EB702CE0006A175 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 27E489EB1EB702CE0006A175;
+			remoteInfo = RekorFit;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		279BD9C41EB7111100689065 /* CreateViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateViewController.swift; sourceTree = "<group>"; };
+		279BD9C61EB7187600689065 /* Workout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Workout.swift; sourceTree = "<group>"; };
+		279BD9C81EB7D58D00689065 /* ChooseExerciseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChooseExerciseViewController.swift; sourceTree = "<group>"; };
+		279BD9CA1EB7D5B400689065 /* ChooseExerciseDataProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChooseExerciseDataProvider.swift; sourceTree = "<group>"; };
+		279BD9CC1EB7D66600689065 /* ExerciseResource.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = ExerciseResource.plist; sourceTree = "<group>"; };
+		279BD9CF1EB9385000689065 /* CreateHeaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateHeaderView.swift; sourceTree = "<group>"; };
+		279BD9D51EBAC58000689065 /* CreateTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateTableViewCell.swift; sourceTree = "<group>"; };
+		27E489EC1EB702CE0006A175 /* RekorFit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RekorFit.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		27E489EF1EB702CE0006A175 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		27E489F11EB702CE0006A175 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		27E489F71EB702CF0006A175 /* RekorFit.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = RekorFit.xcdatamodel; sourceTree = "<group>"; };
+		27E489F91EB702CF0006A175 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		27E489FE1EB702CF0006A175 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		27E48A031EB702CF0006A175 /* RekorFitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RekorFitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		27E48A071EB702CF0006A175 /* RekorFitTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RekorFitTests.swift; sourceTree = "<group>"; };
+		27E48A091EB702CF0006A175 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		27E48A0E1EB702CF0006A175 /* RekorFitUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RekorFitUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		27E48A121EB702CF0006A175 /* RekorFitUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RekorFitUITests.swift; sourceTree = "<group>"; };
+		27E48A141EB702CF0006A175 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		27E48A201EB705000006A175 /* RecordsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecordsViewController.swift; sourceTree = "<group>"; };
+		27E48A241EB705B30006A175 /* HomeDataProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeDataProvider.swift; sourceTree = "<group>"; };
+		27E48A261EB705BC0006A175 /* RecordsDataProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecordsDataProvider.swift; sourceTree = "<group>"; };
+		27E48A281EB7082B0006A175 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		27E48A2C1EB70D9A0006A175 /* CreateDataProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateDataProvider.swift; sourceTree = "<group>"; };
+		27E48A2E1EB70EA30006A175 /* Exercise.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Exercise.swift; sourceTree = "<group>"; };
+		27E48A311EB70EF40006A175 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		27E489E91EB702CE0006A175 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		27E48A001EB702CF0006A175 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		27E48A0B1EB702CF0006A175 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		279BD9CE1EB9383300689065 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				279BD9CF1EB9385000689065 /* CreateHeaderView.swift */,
+				279BD9D51EBAC58000689065 /* CreateTableViewCell.swift */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		27E489E31EB702CE0006A175 = {
+			isa = PBXGroup;
+			children = (
+				27E489EE1EB702CE0006A175 /* RekorFit */,
+				27E48A061EB702CF0006A175 /* RekorFitTests */,
+				27E48A111EB702CF0006A175 /* RekorFitUITests */,
+				27E489ED1EB702CE0006A175 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		27E489ED1EB702CE0006A175 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				27E489EC1EB702CE0006A175 /* RekorFit.app */,
+				27E48A031EB702CF0006A175 /* RekorFitTests.xctest */,
+				27E48A0E1EB702CF0006A175 /* RekorFitUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		27E489EE1EB702CE0006A175 /* RekorFit */ = {
+			isa = PBXGroup;
+			children = (
+				27E489EF1EB702CE0006A175 /* AppDelegate.swift */,
+				27E48A311EB70EF40006A175 /* Constants.swift */,
+				279BD9CE1EB9383300689065 /* View */,
+				27E48A301EB70EA90006A175 /* Model */,
+				27E48A231EB705930006A175 /* ViewModel */,
+				27E48A221EB7050C0006A175 /* ViewController */,
+				27E489F91EB702CF0006A175 /* Assets.xcassets */,
+				27E48A281EB7082B0006A175 /* LaunchScreen.storyboard */,
+				27E489FE1EB702CF0006A175 /* Info.plist */,
+				27E489F61EB702CF0006A175 /* RekorFit.xcdatamodeld */,
+				279BD9CC1EB7D66600689065 /* ExerciseResource.plist */,
+			);
+			path = RekorFit;
+			sourceTree = "<group>";
+		};
+		27E48A061EB702CF0006A175 /* RekorFitTests */ = {
+			isa = PBXGroup;
+			children = (
+				27E48A071EB702CF0006A175 /* RekorFitTests.swift */,
+				27E48A091EB702CF0006A175 /* Info.plist */,
+			);
+			path = RekorFitTests;
+			sourceTree = "<group>";
+		};
+		27E48A111EB702CF0006A175 /* RekorFitUITests */ = {
+			isa = PBXGroup;
+			children = (
+				27E48A121EB702CF0006A175 /* RekorFitUITests.swift */,
+				27E48A141EB702CF0006A175 /* Info.plist */,
+			);
+			path = RekorFitUITests;
+			sourceTree = "<group>";
+		};
+		27E48A221EB7050C0006A175 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				27E489F11EB702CE0006A175 /* HomeViewController.swift */,
+				27E48A201EB705000006A175 /* RecordsViewController.swift */,
+				279BD9C41EB7111100689065 /* CreateViewController.swift */,
+				279BD9C81EB7D58D00689065 /* ChooseExerciseViewController.swift */,
+			);
+			name = ViewController;
+			sourceTree = "<group>";
+		};
+		27E48A231EB705930006A175 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				27E48A241EB705B30006A175 /* HomeDataProvider.swift */,
+				27E48A261EB705BC0006A175 /* RecordsDataProvider.swift */,
+				27E48A2C1EB70D9A0006A175 /* CreateDataProvider.swift */,
+				279BD9CA1EB7D5B400689065 /* ChooseExerciseDataProvider.swift */,
+			);
+			name = ViewModel;
+			sourceTree = "<group>";
+		};
+		27E48A301EB70EA90006A175 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				27E48A2E1EB70EA30006A175 /* Exercise.swift */,
+				279BD9C61EB7187600689065 /* Workout.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		27E489EB1EB702CE0006A175 /* RekorFit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 27E48A171EB702D00006A175 /* Build configuration list for PBXNativeTarget "RekorFit" */;
+			buildPhases = (
+				27E489E81EB702CE0006A175 /* Sources */,
+				27E489E91EB702CE0006A175 /* Frameworks */,
+				27E489EA1EB702CE0006A175 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RekorFit;
+			productName = RekorFit;
+			productReference = 27E489EC1EB702CE0006A175 /* RekorFit.app */;
+			productType = "com.apple.product-type.application";
+		};
+		27E48A021EB702CF0006A175 /* RekorFitTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 27E48A1A1EB702D00006A175 /* Build configuration list for PBXNativeTarget "RekorFitTests" */;
+			buildPhases = (
+				27E489FF1EB702CF0006A175 /* Sources */,
+				27E48A001EB702CF0006A175 /* Frameworks */,
+				27E48A011EB702CF0006A175 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				27E48A051EB702CF0006A175 /* PBXTargetDependency */,
+			);
+			name = RekorFitTests;
+			productName = RekorFitTests;
+			productReference = 27E48A031EB702CF0006A175 /* RekorFitTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		27E48A0D1EB702CF0006A175 /* RekorFitUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 27E48A1D1EB702D00006A175 /* Build configuration list for PBXNativeTarget "RekorFitUITests" */;
+			buildPhases = (
+				27E48A0A1EB702CF0006A175 /* Sources */,
+				27E48A0B1EB702CF0006A175 /* Frameworks */,
+				27E48A0C1EB702CF0006A175 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				27E48A101EB702CF0006A175 /* PBXTargetDependency */,
+			);
+			name = RekorFitUITests;
+			productName = RekorFitUITests;
+			productReference = 27E48A0E1EB702CF0006A175 /* RekorFitUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		27E489E41EB702CE0006A175 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = LISA;
+				TargetAttributes = {
+					27E489EB1EB702CE0006A175 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = 3F4825EUP7;
+						ProvisioningStyle = Automatic;
+					};
+					27E48A021EB702CF0006A175 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = 3F4825EUP7;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 27E489EB1EB702CE0006A175;
+					};
+					27E48A0D1EB702CF0006A175 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = 3F4825EUP7;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 27E489EB1EB702CE0006A175;
+					};
+				};
+			};
+			buildConfigurationList = 27E489E71EB702CE0006A175 /* Build configuration list for PBXProject "RekorFit" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 27E489E31EB702CE0006A175;
+			productRefGroup = 27E489ED1EB702CE0006A175 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				27E489EB1EB702CE0006A175 /* RekorFit */,
+				27E48A021EB702CF0006A175 /* RekorFitTests */,
+				27E48A0D1EB702CF0006A175 /* RekorFitUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		27E489EA1EB702CE0006A175 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				27E48A291EB7082B0006A175 /* LaunchScreen.storyboard in Resources */,
+				27E489FA1EB702CF0006A175 /* Assets.xcassets in Resources */,
+				279BD9CD1EB7D66600689065 /* ExerciseResource.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		27E48A011EB702CF0006A175 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		27E48A0C1EB702CF0006A175 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		27E489E81EB702CE0006A175 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				279BD9D61EBAC58000689065 /* CreateTableViewCell.swift in Sources */,
+				279BD9C51EB7111100689065 /* CreateViewController.swift in Sources */,
+				279BD9C91EB7D58D00689065 /* ChooseExerciseViewController.swift in Sources */,
+				27E489F21EB702CE0006A175 /* HomeViewController.swift in Sources */,
+				27E48A2F1EB70EA30006A175 /* Exercise.swift in Sources */,
+				27E48A2D1EB70D9A0006A175 /* CreateDataProvider.swift in Sources */,
+				279BD9CB1EB7D5B400689065 /* ChooseExerciseDataProvider.swift in Sources */,
+				27E48A271EB705BC0006A175 /* RecordsDataProvider.swift in Sources */,
+				27E48A251EB705B30006A175 /* HomeDataProvider.swift in Sources */,
+				279BD9C71EB7187600689065 /* Workout.swift in Sources */,
+				279BD9D01EB9385000689065 /* CreateHeaderView.swift in Sources */,
+				27E489F01EB702CE0006A175 /* AppDelegate.swift in Sources */,
+				27E489F81EB702CF0006A175 /* RekorFit.xcdatamodeld in Sources */,
+				27E48A211EB705000006A175 /* RecordsViewController.swift in Sources */,
+				27E48A321EB70EF40006A175 /* Constants.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		27E489FF1EB702CF0006A175 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				27E48A081EB702CF0006A175 /* RekorFitTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		27E48A0A1EB702CF0006A175 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				27E48A131EB702CF0006A175 /* RekorFitUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		27E48A051EB702CF0006A175 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 27E489EB1EB702CE0006A175 /* RekorFit */;
+			targetProxy = 27E48A041EB702CF0006A175 /* PBXContainerItemProxy */;
+		};
+		27E48A101EB702CF0006A175 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 27E489EB1EB702CE0006A175 /* RekorFit */;
+			targetProxy = 27E48A0F1EB702CF0006A175 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		27E48A151EB702D00006A175 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		27E48A161EB702D00006A175 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		27E48A181EB702D00006A175 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 3F4825EUP7;
+				INFOPLIST_FILE = RekorFit/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = LISA.RekorFit;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		27E48A191EB702D00006A175 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 3F4825EUP7;
+				INFOPLIST_FILE = RekorFit/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = LISA.RekorFit;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		27E48A1B1EB702D00006A175 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 3F4825EUP7;
+				INFOPLIST_FILE = RekorFitTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = LISA.RekorFitTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RekorFit.app/RekorFit";
+			};
+			name = Debug;
+		};
+		27E48A1C1EB702D00006A175 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 3F4825EUP7;
+				INFOPLIST_FILE = RekorFitTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = LISA.RekorFitTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RekorFit.app/RekorFit";
+			};
+			name = Release;
+		};
+		27E48A1E1EB702D00006A175 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 3F4825EUP7;
+				INFOPLIST_FILE = RekorFitUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = LISA.RekorFitUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = RekorFit;
+			};
+			name = Debug;
+		};
+		27E48A1F1EB702D00006A175 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 3F4825EUP7;
+				INFOPLIST_FILE = RekorFitUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = LISA.RekorFitUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = RekorFit;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		27E489E71EB702CE0006A175 /* Build configuration list for PBXProject "RekorFit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				27E48A151EB702D00006A175 /* Debug */,
+				27E48A161EB702D00006A175 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		27E48A171EB702D00006A175 /* Build configuration list for PBXNativeTarget "RekorFit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				27E48A181EB702D00006A175 /* Debug */,
+				27E48A191EB702D00006A175 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		27E48A1A1EB702D00006A175 /* Build configuration list for PBXNativeTarget "RekorFitTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				27E48A1B1EB702D00006A175 /* Debug */,
+				27E48A1C1EB702D00006A175 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		27E48A1D1EB702D00006A175 /* Build configuration list for PBXNativeTarget "RekorFitUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				27E48A1E1EB702D00006A175 /* Debug */,
+				27E48A1F1EB702D00006A175 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		27E489F61EB702CF0006A175 /* RekorFit.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				27E489F71EB702CF0006A175 /* RekorFit.xcdatamodel */,
+			);
+			currentVersion = 27E489F71EB702CF0006A175 /* RekorFit.xcdatamodel */;
+			path = RekorFit.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 27E489E41EB702CE0006A175 /* Project object */;
+}

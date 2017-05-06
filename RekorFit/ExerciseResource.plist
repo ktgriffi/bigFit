@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>title</key>
+		<string>bench press</string>
+		<key>primary_muscle</key>
+		<string>pectorals</string>
+		<key>secondary_muscle</key>
+		<string>triceps</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>squats</string>
+		<key>primary_muscle</key>
+		<string>quadriceps</string>
+		<key>secondary_muscle</key>
+		<string>glutes</string>
+	</dict>
+</array>
+</plist>
