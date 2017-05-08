@@ -10,9 +10,9 @@ import Foundation
 struct K {
     let screenSize = 12
 
-    struct Create {
-        static let numSets = "numSets"
-        static let exercise = "exercise"
+    enum setsDict: String {
+        case numSets = "numSets"
+        case exercise = "exercise"
 
     }
     struct num {

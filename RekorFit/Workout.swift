@@ -25,16 +25,16 @@ class Workout: NSObject {
 
         exercises.append(contentsOf: workout.exercises)
         for _ in workout.exercises {
-            let dict = [K.Create.exercise : exercises.last?.title ?? "Bench Press",
-                        K.Create.numSets : K.RepRange.Strength.rawValue] as [String : Any]
+            let dict = [K.setsDict.exercise.rawValue : exercises.last?.title ?? "Bench Press",
+                        K.setsDict.numSets.rawValue : K.RepRange.Strength.rawValue] as! [String : Any]
             sets.append(dict as NSDictionary)
         }
 
     }
 
     public func addSet(exercise: Exercise){
-        let dict = [K.Create.exercise : exercise.title,
-                   K.Create.numSets: K.NumSets.Default.rawValue] as [String : Any]
+        let dict = [K.setsDict.exercise.rawValue : exercise.title,
+                   K.setsDict.numSets.rawValue: K.NumSets.Default.rawValue] as [String : Any] 
     
         sets.append(dict as NSDictionary)
     }

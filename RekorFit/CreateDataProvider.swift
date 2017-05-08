@@ -27,7 +27,8 @@ class CreateDataProvider: NSObject, UITableViewDataSource,UITableViewDelegate, C
 
         if workout.sets.count > section {
             let dict = workout.sets[section] as NSDictionary
-            let numSets = dict.object(forKey: K.Create.numSets) as! NSInteger
+            let numSets = dict.object(forKey: K.setsDict.numSets.rawValue) as! NSInteger
+            print("Num Rows \(numSets) for section \(section)")
             return numSets
         }else{
             return 1
@@ -67,6 +68,10 @@ class CreateDataProvider: NSObject, UITableViewDataSource,UITableViewDelegate, C
         let headerView = CreateHeaderView.init(frame: CGRect(x: 0, y: 0, width: screenSize.width, height: screenSize.height/7))
         headerView.delegate = self
         headerView.exercise = workout.exercises[section]
+
+        let dict = workout.sets[section] as NSDictionary
+        let numSets = dict.object(forKey: K.setsDict.numSets.rawValue) as! NSInteger
+        headerView.numSets = numSets
         headerView.addBehaviour(section: section)
         return headerView
         
@@ -81,6 +86,9 @@ class CreateDataProvider: NSObject, UITableViewDataSource,UITableViewDelegate, C
     }
     func setNumSets(sets: NSInteger, section: NSInteger) {
         let exercise = workout.exercises[section]
+        let dict = [ K.setsDict.exercise.rawValue : exercise,
+                     K.setsDict.numSets.rawValue : sets] as [String : Any]
+        workout.sets[section] = dict as NSDictionary
         delegate.setNumSetsFromHeader(sets: sets, exercise: exercise)
     }
 

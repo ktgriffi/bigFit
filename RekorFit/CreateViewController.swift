@@ -116,6 +116,9 @@ class CreateViewController: UITableViewController, CreateDataProviderDelegate, C
         }else{
             dataProvider.workout.joinWorkouts(workout: exercises)
         }
+        for exercise in dataProvider.workout.exercises {
+            dataProvider.workout.addSet(exercise: exercise)
+        }
         self.tableView.reloadData()
     }
     
@@ -135,7 +138,6 @@ class CreateViewController: UITableViewController, CreateDataProviderDelegate, C
     }
 
     func setNumSetsFromHeader(sets: NSInteger, exercise: Exercise) {
-        dataProvider.workout.addSet(exercise: exercise)
         self.tableView.reloadData()
     }
 }

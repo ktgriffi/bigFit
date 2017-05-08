@@ -18,6 +18,7 @@ class CreateHeaderView: UIView {
     var exerciseLabel = UILabel()
     var setsLabel = UILabel()
     var setStepper = UIStepper()
+    var numSets = NSInteger()
     let screenSize: CGRect = UIScreen.main.bounds
     var delegate: CreateHeaderDelegate!
     override init(frame: CGRect) {
@@ -40,11 +41,11 @@ class CreateHeaderView: UIView {
         exerciseLabel.backgroundColor = UIColor.blue
         setStepper.tag = section + K.Tag.CreateHeaderStepper.rawValue
         setStepper.minimumValue = 1
-        setStepper.maximumValue = 200
         setStepper.stepValue = 1
-        setStepper.value = 3
+        setStepper.value = 1
+        setStepper.maximumValue = 10
         setStepper.addTarget(self, action: #selector(stepperPressed), for: .valueChanged)
-        
+        setStepper.value = Double(numSets)
         self.addSubview(setStepper)
         self.addSubview(exerciseLabel)
         self.addSubview(setsLabel)
@@ -52,9 +53,8 @@ class CreateHeaderView: UIView {
     }
     func stepperPressed(sender: UIStepper) {
         let stepperValue = Int(sender.value)
-
         print("Stepper: \(stepperValue)")
-        setsLabel.text = "\(stepperValue)"
+        setsLabel.text = "\(stepperValue)sets"
         let index = sender.tag - K.Tag.CreateHeaderStepper.rawValue
         delegate.setNumSets(sets: stepperValue, section: index)
     }
